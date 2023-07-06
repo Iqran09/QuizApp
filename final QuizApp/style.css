@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(39, 40, 41);
+    position: relative;
+}
+
+#quiz {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.main {
+    background-color: rgb(151, 149, 149);
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.main:hover{
+    /* background-color: rgb(173, 169, 169); */
+    /* color: white; */
+    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.788);
+
+}
+
+#qnum{
+    text-align: center;
+}
+
+.ques {
+    margin: 10%;
+    text-align: center;
+
+}
+
+#btn {
+    display: inline-block;
+    color: rgb(10, 10, 10);
+    margin: 20px;
+    padding: 15px 20px;
+
+    border-radius: 6px;
+    background-color: rgb(253, 253, 253);
+}
+
+#btn:hover{
+    background-color: rgba(243, 55, 55, 0.781);
+    color: white;
+    font-weight: 900;
+}
+
+.option {
+    text-align: center;
+}
+
+.marks {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: none;
+
+}
+
+#addquizbtn{
+background-color: rgb(87, 87, 87);
+color: white;
+justify-content: center;
+padding: 1%;
+padding-left: 2%;
+padding-right: 2%;
+
+}
+
+#addquizbtn:hover{
+    background-color: red;
+}
